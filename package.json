@@ -1,0 +1,15 @@
+{
+  "name": "docker-static-message",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A Docker image with a static message",
+  "repository": "https://github.com/spoenemann/docker-static-message.git",
+  "author": "Miro Spönemann <miro.spoenemann@typefox.io>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "run": "node server"
+  }
+}
